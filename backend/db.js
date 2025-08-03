@@ -17,3 +17,13 @@ connection.connect((err) => {
 });
 
 module.exports = connection;
+
+
+/* ENV
+PORT=3001
+DB_HOST=50.116.27.100
+DB_USER=gfxbydes_userx
+DB_PASS=CV025@@
+DB_NAME=gfxbydes_CV
+
+*/
