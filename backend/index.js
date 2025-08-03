@@ -4,7 +4,7 @@ const experienceRoutes = require("./routes/experience")
 
 const app = express()
 app.use(cors())
-app.use(express().json())
+app.use(express.json())
 
 app.use("/api/experiencia",experienceRoutes)
 
